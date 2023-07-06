@@ -3,6 +3,11 @@
 # see 'man lb config'
 
 lb config noauto \
+--mirror-bootstrap "http://mirrors.ustc.edu.cn/debian" \
+--mirror-chroot "http://mirrors.ustc.edu.cn/debian" \
+--mirror-chroot-security "http://mirrors.ustc.edu.cn/debian-security" \
+--mirror-binary "http://mirrors.ustc.edu.cn/debian" \
+--mirror-binary-security "http://mirrors.ustc.edu.cn/debian-security" \
 --apt-recommends false \
 --apt-indices false \
 --architectures amd64 \
