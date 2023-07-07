@@ -11,12 +11,12 @@ label live-@FLAVOUR@-english
         initrd @INITRD@
         append @APPEND_LIVE@ locales=en_US.UTF-8
 
-label live-@FLAVOUR@-french
-        menu label ^Live (@FLAVOUR@) (French)
+label live-@FLAVOUR@-Chinese
+        menu label ^Live (@FLAVOUR@) (Chinese)
         menu default
         linux @LINUX@
         initrd @INITRD@
-        append @APPEND_LIVE@ locales=fr_FR.UTF-8
+        append @APPEND_LIVE@ locales=zh_CN.UTF-8
 
 label installgui
     menu label ^Install
