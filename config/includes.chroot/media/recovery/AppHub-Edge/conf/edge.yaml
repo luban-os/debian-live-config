@@ -1,0 +1,31 @@
+eventbus:
+  mqtt:
+    broker: 127.0.0.1
+    clientid: ""
+    encrypt: "yes"
+    passwd: advantech
+    port: 1884
+    qos: 2
+    session-queue-size: 100
+    user: advantech
+ithings:
+  enable: "true"
+  mappers:
+    exe_mapper:
+      enable: "true"
+    restful:
+      enable: "true"
+    snmp:
+      enable: "true"
+m2mclient:
+  client-application-id: ei-device
+  orgid: adv
+  server-application-id: ei-server
+  server-endpoint-id: "56781"
+transport:
+  mqtt:
+    bind: "false"
+    clientid: ""
+    encrypt: "yes"
+    passwd: EblT5ZqYNak=
+    qos: 0

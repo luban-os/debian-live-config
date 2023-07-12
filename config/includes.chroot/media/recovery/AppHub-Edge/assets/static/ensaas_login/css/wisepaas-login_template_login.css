@@ -1,0 +1,314 @@
+#login-username {
+  margin: 0 auto;
+  border-radius: 0px;
+  border-color: #C2C2C2;
+  border-width: 2px 2px 1px 2px;  
+}
+
+#login-username:focus {
+  border: solid #99CAFF;
+  border-width: 2px 2px 1px 2px;
+  color: #000000;
+}
+
+#login-pwd {
+  margin: 0 auto;
+  border-radius: 0px;
+  border-color: #C2C2C2;
+  border-width: 1px 2px 2px 2px;
+}
+
+#login-pwd:focus {
+  border: solid #99CAFF;
+  border-width: 1px 2px 2px 2px;
+  color: #000000;
+}
+
+#login-rememberme {
+  transform-origin: left; 
+  font-family: NotoSans; 
+  position: absolute; 
+  font-weight: 400;
+  cursor: pointer;
+  color: #342e2d;
+}
+
+#login-rememberme input {
+  margin: 0px;
+}
+
+#login-rememberme span {
+  position: relative;
+}
+
+#login-forgetpwd {
+  transform-origin: right; 
+  font-family: NotoSans; 
+  position: absolute;
+  cursor: pointer;
+  color: #3395ff;
+}
+
+#login-btn {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  cursor: pointer; 
+  position: absolute; 
+  background-color: #40506f; 
+  font-family: NotoSans; 
+  color: #FEFEFE;
+}
+
+@media (max-width: 424px) {
+  #login-username, #login-pwd {
+    width: 336px;
+    height: 40px;
+  }
+
+  #login-rememberme {
+    top: 391px;
+    left: 19.5px;
+    font-size: 0.94em;
+  }
+
+  #login-forgetpwd {
+    top: 391px;
+    right: 19.5px;
+    font-size: 0.94em;
+  }
+
+  #login-btn {
+    right: 19.5px;
+    top: 427.5px;
+    width: 109px;
+    height: 41.5px;
+  }
+
+  #login-btn span {
+    font-size: 1.128em;
+  }
+}
+
+@media (max-width: 320px) {
+  #login-username, #login-pwd {
+    width: 241.92px;
+    height: 28.8px;
+  }
+
+  #login-rememberme {
+    top: 281.52px;
+    left: 14.04px;
+    font-size: 0.75em;
+  }
+
+  #login-forgetpwd {
+    top: 281.52px;
+    right: 14.04px;
+    font-size: 0.75em;
+  }
+
+  #login-btn {
+    right: 14.04px;
+    top: 307.8px;
+    width: 78.48px;
+    height: 29.88px;
+  }
+
+  #login-btn span {
+    font-size: 0.9em;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  #login-username, #login-pwd {
+    width: 390.76px;
+    height: 49.98px;
+  }
+
+  #login-rememberme {
+    top: 445.46px;
+    left: 16.92px;
+    font-size: 1.12em;
+  }
+
+  #login-forgetpwd {
+    top: 445.46px;
+    right: 16.92px;
+    font-size: 1.12em;
+  }
+
+  #login-btn {
+    right: 16.92px;
+    top: 485.6px;
+    width: 146.39px;
+    height: 48.8px;
+  }
+
+  #login-btn span {
+    font-size: 1.344em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .loginStyle {
+    background: url("/static/ensaas_login/img/1024768.png") no-repeat center center fixed;
+    background-size: 100% 100%;
+  }
+
+  #login-username, #login-pwd {
+    width: 256px;
+    height: 32px;
+  }
+
+  #login-rememberme {
+    top: 300px;
+    left: 27px;
+    font-size: 0.75em;
+  }
+
+  #login-rememberme input {
+    vertical-align: text-bottom;
+  }
+
+  #login-forgetpwd {
+    top: 274px;
+    right: 27px;
+    font-size: 0.75em;
+  }
+
+  #login-btn {
+    right: 27px;
+    top: 308px;
+    width: 96px;
+    height: 32px;
+  }
+
+  #login-btn span {
+    font-size: 0.9em;
+  }  
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .loginStyle {
+    background: url("/static/ensaas_login/img/1280800.png") no-repeat center center fixed;
+    background-size:100% 100%;
+  }
+
+  #login-username, #login-pwd {
+    width: 256px;
+    height: 32px;
+  }
+
+  #login-rememberme {
+    top: 300px;
+    left: 27px;
+    font-size: 0.75em;
+  }
+
+  #login-rememberme input {
+    vertical-align: text-bottom;
+  }
+
+  #login-forgetpwd {
+    top: 274px;
+    right: 27px;
+    font-size: 0.75em;
+  }
+
+  #login-btn {
+    right: 27px;
+    top: 308px;
+    width: 96px;
+    height: 32px;
+  }
+
+  #login-btn span {
+    font-size: 0.9em;
+  }    
+}
+
+@media (min-width: 1440px) and (max-width: 2559px) {
+  .loginStyle {
+    background: url("/static/ensaas_login/img/19201080.png") no-repeat center center fixed;
+    background-size:cover;
+  }
+
+  #login-username, #login-pwd {
+    width: 320px;
+    height: 40px;
+  }
+
+  #login-rememberme {
+    top: 355px;
+    left: 26px;
+    font-size: 0.95em;
+  }
+
+  #login-rememberme input {
+    vertical-align: baseline;
+  }
+
+  #login-forgetpwd {
+    top: 330px;
+    right: 26px;
+    font-size: 0.95em;
+  }
+
+  #login-btn {
+    right: 26px;
+    top: 371px;
+    width: 120px;
+    height: 40px;
+  }
+
+  #login-btn span {
+    font-size: 1.14em;
+  } 
+}
+
+@media (min-width: 2560px) {
+  .loginStyle {
+    background: url("/static/ensaas_login/img/19201080.png") no-repeat center center fixed;
+    background-size:cover;
+  }
+
+  #login-username, #login-pwd {
+    width: 512px;
+    height: 64px;
+  }
+  
+  #login-rememberme {
+    top: 540px;
+    left: 54px;
+    font-size: 1.44em;
+  }
+
+  #login-rememberme input {
+    width: 19px;
+    height: 19px;
+    vertical-align: baseline;
+  }
+
+  #login-forgetpwd {
+    top: 540px;
+    right: 54px;
+    font-size: 1.44em;
+  }
+
+  #login-btn {
+    right: 54px;
+    top: 599px;
+    width: 192px;
+    height: 64px;
+  }
+
+  #login-btn span {
+    font-size: 1.728em;
+  }
+}
