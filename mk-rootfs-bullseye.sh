@@ -63,6 +63,8 @@ IEOF
 
 #Timezone
 echo "Asia/Shanghai" > /etc/timezone
+#default localtime -> /usr/share/zoneinfo/Etc/UTC
+ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
 EOF
 
