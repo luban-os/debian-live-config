@@ -46,8 +46,10 @@ cat << EOF | sudo chroot $TARGET_ROOTFS_DIR
 
 #-----------------Install------------------
 apt-get update
-apt-get install -y grub-pc
-
+### legancy mode
+apt-get install -y grub-pc grub-pc-bin
+### efi mode
+apt-get install -y grub-efi grub-efi-amd64 grub-efi-amd64-bin grub-efi-amd64-signed
 
 # Create User
 useradd -G sudo,dialout,fax,cdrom,floppy,tape,audio,dip,video,plugdev,scanner,netdev -m -s /bin/bash linaro
