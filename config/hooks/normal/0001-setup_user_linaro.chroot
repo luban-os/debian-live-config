@@ -1,0 +1,8 @@
+#!/bin/sh  
+
+echo "I: create linaro user"
+adduser --gecos linaro --disabled-login linaro
+
+echo "I: set linaro user password"
+echo "linaro:123456" | chpasswd
+echo "root:123456" | chpasswd

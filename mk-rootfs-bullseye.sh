@@ -52,16 +52,16 @@ apt-get install -y grub-pc grub-pc-bin
 apt-get install -y grub-efi grub-efi-amd64 grub-efi-amd64-bin grub-efi-amd64-signed
 
 # Create User
-useradd -G sudo,dialout,fax,cdrom,floppy,tape,audio,dip,video,plugdev,scanner,netdev -m -s /bin/bash linaro
-passwd linaro <<IEOF
-123456
-123456
-IEOF
+#useradd -G sudo,dialout,fax,cdrom,floppy,tape,audio,dip,video,plugdev,scanner,netdev -m -s /bin/bash linaro
+#passwd linaro <<IEOF
+#123456
+#123456
+#IEOF
 
-passwd root <<IEOF
-123456
-123456
-IEOF
+#passwd root <<IEOF
+#123456
+#123456
+#IEOF
 
 #Timezone
 echo "Asia/Shanghai" > /etc/timezone
