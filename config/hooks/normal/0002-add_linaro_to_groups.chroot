@@ -1,6 +1,6 @@
 #!/bin/sh -x 
 
-DEFGROUPS=="sudo,dialout,fax,cdrom,floppy,tape,audio,dip,video,plugdev,scanner,netdev"
+DEFGROUPS="sudo,dialout,fax,cdrom,floppy,tape,audio,dip,video,plugdev,scanner,netdev"
 
 IFS=','
 for group in $DEFGROUPS; do
