@@ -139,7 +139,8 @@ libblockdev-crypto2
 #Description: nano
 mousepad
 nano
-vim-tiny
+vim
+#Alt: vim-tiny
 #Alt: gnome-builder flatpak-builder python3-lxml python3-jedi
 #Alt: vim
 #Alt: vim-doc
