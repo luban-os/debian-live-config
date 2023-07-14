@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=automounter
+Comment=udisk2 automounter with optional notifications;tray icon
+Exec=udiskie --tray

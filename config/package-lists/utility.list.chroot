@@ -314,6 +314,9 @@ qt5-gtk-platformtheme
 #Alt: cellwriter
 #florence # buster only
 
+#Section: udisk
+udiskie
+
 #Section: Other
 libnotify-bin
 numlockx
