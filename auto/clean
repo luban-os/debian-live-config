@@ -30,6 +30,6 @@ rm -rf	.build/ \
 	config/hooks/normal/0420-update-glx-alternative.hook.chroot \
 	config/hooks/normal/0430-update-mlocate-database.hook.chroot \
 	config/hooks/normal/0440-update-nvidia-alternative.hook.chroot \
+	config/hooks/normal/0500-reproducible-glibc.hook.chroot \
 	config/hooks/live/0010-disable-kexec-tools.hook.chroot \
-	config/hooks/live/0050-disable-sysvinit-tmpfs.hook.chroot \
-	config/package-lists/live.list.chroot
+	config/hooks/live/0050-disable-sysvinit-tmpfs.hook.chroot
