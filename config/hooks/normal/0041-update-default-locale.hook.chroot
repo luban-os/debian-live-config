@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+# setting default locale to en_US
+echo "LANG=en_US.UTF-8" >/etc/default/locale

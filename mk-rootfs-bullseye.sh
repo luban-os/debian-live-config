@@ -64,9 +64,9 @@ apt-get install -y grub-efi grub-efi-amd64 grub-efi-amd64-bin grub-efi-amd64-sig
 #IEOF
 
 #Timezone
-echo "Asia/Shanghai" > /etc/timezone
+#echo "Asia/Shanghai" > /etc/timezone
 #default localtime -> /usr/share/zoneinfo/Etc/UTC
-ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+#ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
 EOF
 
