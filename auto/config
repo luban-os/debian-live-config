@@ -21,6 +21,7 @@ lb config noauto \
 --checksums sha256 \
 --clean \
 --debconf-frontend noninteractive \
+--chroot-squashfs-compression-type gzip \
 --debian-installer live \
 --debian-installer-distribution bullseye \
 --debian-installer-gui true \

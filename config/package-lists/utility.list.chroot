@@ -1,4 +1,12 @@
 #Title: Utility
+#Section: grub installer
+#Description: Both support BIOS and EFI mode
+#Alt: grub-pc
+grub-pc-bin
+#Alt: grub-efi
+#Alt: grub-efi-amd64
+grub-efi-amd64-bin
+#Alt: grub-efi-amd64-signed
 
 #Section: File management
 #Description: thunar
